@@ -10,7 +10,7 @@ public class Circle extends Figure{
 
     @Override
     public double area() {
-        return  PI * (radius*radius);
+        return  PI * Math.pow(radius,2);
     }
 
     @Override

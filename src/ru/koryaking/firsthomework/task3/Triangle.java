@@ -7,10 +7,16 @@ public class Triangle extends Figure{
     private double leftSide;
     private double rightSide;
 
+    public Triangle(double footing, double height, double leftSide, double rightSide) {
+        this.footing = footing;
+        this.height = height;
+        this.leftSide = leftSide;
+        this.rightSide = rightSide;
+    }
 
     @Override
     public double area() {
-        return 1/2*footing*height;
+        return 0.5*footing*height;
     }
 
     @Override

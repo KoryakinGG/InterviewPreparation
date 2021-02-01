@@ -1,6 +1,6 @@
 package ru.koryaking.firsthomework.task2;
 
-public class Lorry extends Car {
+public class Lorry extends Car implements Moveable, Stopable, Started{
     @Override
     public void move(){
         System.out.println(getName() + " is moving");
@@ -13,5 +13,6 @@ public class Lorry extends Car {
     void open() {
         System.out.println(getName() + " is open");
     }
-
+    @Override
+    public void start() { System.out.println(getName() + " is start"); }
 }

@@ -1,24 +1,18 @@
 package ru.koryaking.firsthomework.task2;
 
 public abstract class Car {
-    private Engine engine;
+    private AbstractEngine abstractEngine;
     private String color;
     private String name;
 
-    protected void start() {
-        System.out.println("Car starting");
-    }
-
-    abstract void move();
-    abstract void stop();
     abstract void open();
 
-    public Engine getEngine() {
-        return engine;
+    public AbstractEngine getEngine() {
+        return abstractEngine;
     }
 
-    public void setEngine(Engine engine) {
-        this.engine = engine;
+    public void setEngine(AbstractEngine abstractEngine) {
+        this.abstractEngine = abstractEngine;
     }
 
     public String getColor() {
