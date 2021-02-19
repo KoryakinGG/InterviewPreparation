@@ -1,4 +1,6 @@
-package ru.koryaking.fifthhomework;
+package ru.koryaking;
+
+import javax.persistence.*;
 
 @Entity
 @Table (name = "homework5")

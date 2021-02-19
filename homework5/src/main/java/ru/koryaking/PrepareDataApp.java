@@ -1,4 +1,4 @@
-package ru.koryaking.fifthhomework;
+package ru.koryaking;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
