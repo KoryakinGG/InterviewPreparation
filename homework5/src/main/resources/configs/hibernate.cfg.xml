@@ -11,7 +11,7 @@
 <hibernate-configuration>
     <session-factory>
         <property name="connection.driver_class">org.postgresql.Driver</property> <!-- DB Driver -->
-        <property name="connection.url">jdbc:postgresql://localhost:5432/postgres?currentSchema=homework5</property> <!-- BD Mane -->
+        <property name="connection.url">jdbc:postgresql://localhost:5432/postgres?currentSchema=for_homework</property> <!-- BD Mane -->
         <property name="connection.username">postgres</property> <!-- DB User -->
         <property name="connection.password">admin</property> <!-- DB Password -->
         <property name="connection.pool_size">8</property> <!-- DB Pools -->
